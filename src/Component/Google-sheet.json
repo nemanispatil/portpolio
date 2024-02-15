@@ -1,0 +1,405 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "nemanispatil@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:408c:ae45:9ea7:1177:9af9:4987:fee8",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "CreateProject",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/contactform-412703",
+      "request": {
+        "@type": "type.googleapis.com/google.cloudresourcemanager.v1.CreateProjectRequest",
+        "project": {
+          "createTime": "2024-01-29T03:44:08.236Z",
+          "projectId": "contactform-412703",
+          "projectNumber": "903309436571",
+          "name": "Contactform",
+          "lifecycleState": "ACTIVE"
+        }
+      }
+    },
+    "insertId": "-2rdmj7d2noa",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "contactform-412703"
+      }
+    },
+    "timestamp": "2024-01-29T03:44:09.271098Z",
+    "severity": "NOTICE",
+    "logName": "projects/contactform-412703/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-01-29T03:44:10.037142736Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "nemanispatil@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:408c:ae45:9ea7:1177:9af9:4987:fee8",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/903309436571/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {}
+        },
+        {
+          "resource": "projectnumbers/903309436571/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {}
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/contactform-412703/services/cloudapis.googleapis.com"
+    },
+    "insertId": "-mgyxuld54am",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "contactform-412703",
+        "service": ""
+      }
+    },
+    "timestamp": "2024-01-29T03:44:12.011355Z",
+    "severity": "NOTICE",
+    "logName": "projects/contactform-412703/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-903309436571-d2e038b9-cb64-41cb-95b1-5701eeec6abd",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-01-29T03:44:13.601167571Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "nemanispatil@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:408c:ae45:9ea7:1177:9af9:4987:fee8",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/903309436571/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {}
+        },
+        {
+          "resource": "projectnumbers/903309436571/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {}
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/contactform-412703/services/cloudapis.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/contactform-412703/services/cloudapis.googleapis.com"
+      }
+    },
+    "insertId": "1kltc7qd2q99",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "contactform-412703",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-01-29T03:44:12.011355Z",
+    "severity": "NOTICE",
+    "logName": "projects/contactform-412703/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-903309436571-d2e038b9-cb64-41cb-95b1-5701eeec6abd",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-01-29T03:44:13.504511459Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "nemanispatil@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:408c:ae45:9ea7:1177:9af9:4987:fee8",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "servicemanagement.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/903309436571",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {}
+        },
+        {
+          "resource": "projectnumbers/903309436571",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {}
+        },
+        {
+          "resource": "projectnumbers/903309436571/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {}
+        },
+        {
+          "resource": "projectnumbers/903309436571/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/903309436571/operations/acat.p2-903309436571-d2e038b9-cb64-41cb-95b1-5701eeec6abd"
+    },
+    "insertId": "1s3fk4qd2rec",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "contactform-412703",
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "servicemanagement.googleapis.com"
+      }
+    },
+    "timestamp": "2024-01-29T03:44:12.657382Z",
+    "severity": "NOTICE",
+    "logName": "projects/contactform-412703/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-01-29T03:44:13.107580355Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "nemanispatil@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:408c:ae45:9ea7:1177:9af9:4987:fee8",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "servicemanagement.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/903309436571",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {}
+        },
+        {
+          "resource": "projectnumbers/903309436571",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {}
+        },
+        {
+          "resource": "projectnumbers/903309436571/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {}
+        },
+        {
+          "resource": "projectnumbers/903309436571/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/903309436571/operations/acat.p2-903309436571-d2e038b9-cb64-41cb-95b1-5701eeec6abd"
+    },
+    "insertId": "2rw7qad2lua",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "contactform-412703",
+        "service": "servicemanagement.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2024-01-29T03:44:14.090897Z",
+    "severity": "NOTICE",
+    "logName": "projects/contactform-412703/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-01-29T03:44:14.500612953Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "nemanispatil@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:408c:ae45:9ea7:1177:9af9:4987:fee8",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/903309436571/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true
+        }
+      ],
+      "resourceName": "projects/contactform-412703/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/contactform-412703/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/903309436571/services/cloudapis.googleapis.com",
+          "config": {
+            "name": "cloudapis.googleapis.com",
+            "title": "Google Cloud APIs"
+          },
+          "state": "ENABLED",
+          "parent": "projects/903309436571"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "1dyyyod7wgs",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "contactform-412703",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-01-29T03:44:14.916507671Z",
+    "severity": "NOTICE",
+    "logName": "projects/contactform-412703/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-903309436571-d2e038b9-cb64-41cb-95b1-5701eeec6abd",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-01-29T03:44:14.916507671Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "nemanispatil@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:408c:ae45:9ea7:1177:9af9:4987:fee8",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/903309436571/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true
+        }
+      ],
+      "resourceName": "projects/contactform-412703/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/contactform-412703/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "status": "ENABLED",
+        "services": [
+          "cloudapis.googleapis.com",
+          "bigquery.googleapis.com",
+          "bigquerymigration.googleapis.com",
+          "bigquerystorage.googleapis.com",
+          "cloudtrace.googleapis.com",
+          "datastore.googleapis.com",
+          "logging.googleapis.com",
+          "monitoring.googleapis.com",
+          "servicemanagement.googleapis.com",
+          "serviceusage.googleapis.com",
+          "sql-component.googleapis.com",
+          "storage-api.googleapis.com",
+          "storage-component.googleapis.com",
+          "storage.googleapis.com"
+        ],
+        "@type": "type.googleapis.com/google.api.tenant.apis.shared.activation.CrossLoggingResponse"
+      }
+    },
+    "insertId": "1dyyyod7wgu",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "contactform-412703"
+      }
+    },
+    "timestamp": "2024-01-29T03:44:14.916507671Z",
+    "severity": "NOTICE",
+    "logName": "projects/contactform-412703/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-903309436571-d2e038b9-cb64-41cb-95b1-5701eeec6abd",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-01-29T03:44:14.916507671Z"
+  }
+]

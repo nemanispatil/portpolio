@@ -1,0 +1,39 @@
+
+.about-section {
+  padding: 40px;
+  background-color: #f7f7f7;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image-container {
+  flex: 1;
+  max-width: 300px;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.image-container img {
+  width: 100%;
+  /* border-radius: 8px; Optional: add a border-radius for a rounded image */
+  border-radius: 100%;
+}
+
+.text-container {
+  flex: 2;
+}
+
+.text-container h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+.text-container p {
+  color: #555;
+  line-height: 1.6;
+}
